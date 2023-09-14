@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler
 import os
 
 # Load the trained SVM model
-with open('svm.pkl', 'rb') as file:
+with open('SVM.pkl', 'rb') as file:
     svm_classifier = pickle.load(file)
 
 # Load the scaler fitted in the Jupyter Notebook
